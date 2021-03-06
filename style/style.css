@@ -126,4 +126,11 @@ footer .copyright {
     width: 8%;
   }
 }
+
+#arrow {
+  position: fixed;
+  bottom: 5%;
+  right: 3%;
+  width: 3%;
+}
 /*# sourceMappingURL=style.css.map */
