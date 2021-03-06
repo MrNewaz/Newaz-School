@@ -1,0 +1,98 @@
+.container {
+  margin-bottom: 3rem;
+}
+
+.sign-in-btn {
+  border-radius: 2rem;
+  font-size: 1.3rem;
+  padding: 0.3rem 2rem;
+  background-color: #21b573;
+  &:hover {
+    background-color: #fd511a;
+    border-color: #fd511a;
+  }
+}
+nav {
+  img {
+    width: 12rem;
+  }
+}
+
+.page1 {
+  background-color: #f0fff0;
+  span {
+    color: #21b573;
+  }
+  .row {
+    padding: 4rem 0;
+    h1 {
+      margin: 2rem 0;
+    }
+    button {
+      margin: 2rem 0;
+    }
+  }
+}
+
+.orange {
+  color: #fd511a;
+}
+.page2 {
+  .card {
+    background-color: #f0fff0;
+    padding: 2.5rem;
+    border: none;
+    transition: all 0.3s ease-in-out;
+    img {
+      height: 40%;
+      width: 40%;
+      object-fit: contain;
+      margin-bottom: 1rem;
+    }
+    &:hover {
+      background: #ffffff;
+      box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
+    }
+  }
+}
+
+.oc {
+  margin-bottom: 3rem;
+}
+.page4 {
+  img {
+    width: 80%;
+  }
+}
+
+footer {
+  .container {
+    padding: 3rem 0 4rem 0;
+  }
+  .col-8 {
+    .row {
+      padding: 0 5rem;
+    }
+  }
+  color: #ffffff;
+  background-color: #282531;
+  .copyright {
+    padding: 1rem 0;
+    margin-bottom: 0;
+  }
+}
+
+.foot {
+  display: flex;
+  flex-direction: row;
+  font-size: 75%;
+  .img {
+    width: 15%;
+  }
+}
+
+.card-footer {
+  background-color: #ffff;
+  border: none;
+}
