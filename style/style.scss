@@ -96,6 +96,12 @@ footer {
   background-color: #ffff;
   border: none;
 }
+#arrow {
+  position: fixed;
+  bottom: 5%;
+  right: 3%;
+  width: 3%;
+}
 
 @media (max-width: 754px) {
   .foot {
@@ -106,11 +112,10 @@ footer {
       width: 8%;
     }
   }
-}
-
-#arrow {
-  position: fixed;
-  bottom: 5%;
-  right: 3%;
-  width: 3%;
+  #arrow {
+    position: fixed;
+    bottom: 5%;
+    right: 5%;
+    width: 20%;
+  }
 }

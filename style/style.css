@@ -111,6 +111,13 @@ footer .copyright {
   border: none;
 }
 
+#arrow {
+  position: fixed;
+  bottom: 5%;
+  right: 3%;
+  width: 3%;
+}
+
 @media (max-width: 754px) {
   .foot {
     display: -webkit-box;
@@ -125,12 +132,11 @@ footer .copyright {
   .foot .img {
     width: 8%;
   }
-}
-
-#arrow {
-  position: fixed;
-  bottom: 5%;
-  right: 3%;
-  width: 3%;
+  #arrow {
+    position: fixed;
+    bottom: 5%;
+    right: 5%;
+    width: 20%;
+  }
 }
 /*# sourceMappingURL=style.css.map */
