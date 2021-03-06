@@ -68,7 +68,7 @@ nav {
 
 footer {
   .container {
-    padding: 3rem 0 4rem 0;
+    padding: 3rem 0 0rem 0;
   }
   .col-8 {
     .row {
@@ -96,3 +96,14 @@ footer {
   background-color: #ffff;
   border: none;
 }
+
+@media (max-width: 754px) {
+  .foot {
+    display: flex;
+    flex-direction: row;
+    font-size: 75%;
+    .img {
+      width: 8%;
+    }
+  }
+} ;

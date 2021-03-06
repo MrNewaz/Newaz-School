@@ -79,7 +79,7 @@ footer {
 }
 
 footer .container {
-  padding: 3rem 0 4rem 0;
+  padding: 3rem 0 0rem 0;
 }
 
 footer .col-8 .row {
@@ -109,5 +109,21 @@ footer .copyright {
 .card-footer {
   background-color: #ffff;
   border: none;
+}
+
+@media (max-width: 754px) {
+  .foot {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    font-size: 75%;
+  }
+  .foot .img {
+    width: 8%;
+  }
 }
 /*# sourceMappingURL=style.css.map */
